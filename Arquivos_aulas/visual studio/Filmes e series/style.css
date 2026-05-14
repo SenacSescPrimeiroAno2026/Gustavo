@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+}
+.hihihiha{
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+.filme_ou_serie{
+    background-color: aliceblue;
+    margin: 30px;
+
+}
+.hahihihi{
+     background-color: white;
+     margin: 10px;
+}
+.final{
+    margin: 20px;
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    border-radius: 25px;
+}

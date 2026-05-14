@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h1>Início do formulario</h1>
+            <br>
+            <form action="recebe.html">
+                <label for="id_NC">Nome🪪:</label>
+                <br>
+                <input type="text" id="id_NC" name="LNome" value="">
+                <br><br>
+                <label for="ID_idade">Idade🎂:</label>
+                <input type="number" id="ID_idade" name="LIdade" value="">
+                <br><br>
+                <label for="">Data de nascimento📅:</label>
+                <input type="text" id="ID_DN" name="LData" value="">
+                <br><br>
+                <label for="ID_tele">Telefone📞:</label>
+                <input type="number" name="LTelefone" id="ID_tele">
+                <br><br>
+                <label for="ID_Email">Email📩</label>
+                <input type="email" name="Lemail" id="ID_Email">
+                <br><br>
+                <p>Qual turno quer?</p>
+                <input type="radio" name="Lturno" id="ID_manha">
+                <label for="ID_manha">Manhã</label>
+                <br>
+                <input type="radio" name="Lturno" id="ID_Tarde">
+                <label for="ID_Tarde">Tarde</label>
+                <br>
+                <input type="radio" name="Lturno" id="ID_Noite">
+                <label for="ID_Noite">Noite</label>
+                <br><br>
+                <P>Quais são seus interesses?</P>
+                <input type="checkbox" name="Tec" id="ID_Tec">
+                <label for="ID_Tec">Tecnologias</label>
+                <br>
+                <input type="checkbox" name="Videogames" id="ID_VG">
+                <label for="ID_VD">Videogames</label>
+                <br>
+                <input type="checkbox" name="esportes" id="ID_Esportes">
+                <label for="ID_Tec">Esportes</label>
+                <br>
+                <input type="checkbox" name="TV" id="ID_TV">
+                <label for="ID_TV">Filmes/séries</label>
+                <br>
+                <input type="checkbox" name="Musica" id="ID_Musica">
+                <label for="ID_Musica">Música</label>
+                <br>
+                <input type="checkbox" name="outro" id="ID_outro">
+                <label for="ID_outro">Outros</label>
+                <br><br>
+                <p>Você aceita os termos e condições?</p>
+                <input type="checkbox" required name="Laceitou" id="ID_afirma">
+                <label for="ID_afirma">Sim</label>
+                <br>
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

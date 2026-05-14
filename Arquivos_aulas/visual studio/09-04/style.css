@@ -1,0 +1,15 @@
+h1{
+color:red;
+}
+img{
+width:400px;
+height:200px;
+}
+
+.japao{
+color:white;
+background-image: url('japao.png');
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}

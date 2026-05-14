@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ol{
+    color: red;
+}
+
+dl{
+    color: yellowgreen;
+}
+
+li{
+    color: cyan;
+}
+
+.div1{
+    background-color: greenyellow;
+}
+
+.div_pai{
+    background-color: blueviolet;
+    width: 400px;
+    margin: auto;
+}
+
+.div2{
+    border: 1px solid white;
+    background-color: crimson;
+    display: inline-block;
+}
+.div3{
+    border: 2px solid white;
+    background-color: gainsboro;
+    color: indigo;
+    display: inline-block;
+}
+.mês{
+    background-color: purple;
+    margin: auto;
+    width: 353px;
+}
+
+table, tr, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+}

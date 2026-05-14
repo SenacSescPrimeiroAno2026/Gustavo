@@ -1,0 +1,17 @@
+h2{
+background-color:orange;
+font-size: 200%;
+font-family: Papyrus;
+}
+
+a:link{
+color:orange
+}
+
+a:hover{
+color:red
+}
+
+a:active{
+color:red;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: palegreen;
+    text-align: center;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p{
+    background-color: aquamarine;
+    border: 2px solid dodgerblue;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+}
+.mao{
+    cursor: pointer;
+}
