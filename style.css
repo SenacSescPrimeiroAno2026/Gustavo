@@ -26,6 +26,7 @@ body{
     justify-content: center;
 }
 .trabalhos_sesc{
+    font-size: 50px;
     color: blue;
     background-color: white;
     border:solid 2px white;
