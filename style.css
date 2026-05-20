@@ -25,3 +25,9 @@ body{
     gap: 20px;
     justify-content: center;
 }
+.trabalhos_sesc{
+    border:solid 2px white;
+    border-radius: 20px;
+    margin: auto;
+    display: inline;
+}
