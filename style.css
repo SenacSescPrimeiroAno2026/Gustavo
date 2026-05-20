@@ -11,4 +11,12 @@ body{
 
 .Menu_principal{
     border: solid 1px black;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
