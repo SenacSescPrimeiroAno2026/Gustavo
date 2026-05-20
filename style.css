@@ -7,8 +7,13 @@ header{
 body{
     background-color: black;
     text-align: center;
-    color: lightgrey;}
-
+    color: lightgrey;
+}
+.texto{
+    margin-left: 250px;
+    margin-right: 250px;
+    border: solid 2px white;
+}
 .invisible{
     color: inherit;
     text-decoration: none;
