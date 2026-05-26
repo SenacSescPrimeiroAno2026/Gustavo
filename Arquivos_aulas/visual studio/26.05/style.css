@@ -8,6 +8,7 @@ body{
     justify-content: center;
 }
 header{
+    margin: 0px;
     background-color: gainsboro;
     border: solid 2px black;
     border-radius: 30px;
