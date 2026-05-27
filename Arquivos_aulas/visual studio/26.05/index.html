@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evento Escolar 2026</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
         <header>
@@ -14,14 +16,16 @@
             <div class="menus">
                 <nav class="Menu"><a href="#Sobre">Sobre</a></nav>
                 <nav class="Menu"><a href="#Cronograma">Cronograma</a></nav>
-                <nav class="Menu"><a href="formulario">Incrição</a></nav>
+                <nav class="Menu"><a href="#formulario">Incrição</a></nav>
                 <nav class="Menu"><a href="">Contato</a></nav>
             </div>
         </header>
         <br>
         <section id="Sobre">
             <h3>Sobre o evento</h3>
-            <P>Esse evento reunirá alunos e familiares para analizar, olhar e compartilhar projetos, feitos em HTML e CSS, produzidos pelos aluns da 1ª série do Ensino Médio até o Terceirão. Essa atividade está sendo feita para:</P>
+            <P>Esse evento reunirá alunos e familiares para analizar, olhar e compartilhar projetos, feitos em HTML e
+                CSS, produzidos pelos aluns da 1ª série do Ensino Médio até o Terceirão. Essa atividade está sendo feita
+                para:</P>
             <ul class="listinha">
                 <li>Estabelecer interação entre a família e os alunos.</li>
                 <li>Compartilhar conhecimento entre os alunos.</li>
@@ -78,15 +82,35 @@
         <br>
         <section id="formulario">
             <h3>Inscrição</h3>
-            <p>Caso você tenha interesse em participar de alguma atividade, aqui vem um formulário para sua inscrição:</p>
+            <p>Caso você tenha interesse em participar de alguma atividade, aqui vem um formulário para sua inscrição:
+            </p>
             <form action="">
                 <h3>formulário</h3>
-                <label for="nome">Nome completo:</label>  
+                <label for="nome">Nome completo:</label>
                 <br>
                 <input type="text" id="nome" name="nome">
-                <label for="Email" (required)>Email</label>
+                <br>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="email" id="Email" name="Email">
+                <br>
+                <label for="Idade">Sua idade:</label>
+                <br>
+                <input type="number" id="Idade" name="Idade">
+                <br>
+                <label for="Participacao">Como você vai participar?</label>
+                <br>
+                <select name="Participacao" id="Participacao">
+                    <option value="Aluno">Aluno</option>
+                    <option value="Apresentador">Apresentador de projeto</option>
+                    <option value="Parente">Parente ou responsável</option>
+                    <option value="Organizador">Organizador do evento</option>
+                </select>
+                <br>
+                <button type="submit" onclick="disabled=true">Envie</button>
             </form>
         </section>
     </div>
 </body>
+
 </html>

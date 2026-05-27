@@ -39,3 +39,8 @@ table, td, th, tr{
     border: solid 2px black;
     border-radius: 30px;
 }
+form{
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 30px;
+}
