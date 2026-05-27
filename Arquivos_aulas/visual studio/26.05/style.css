@@ -34,3 +34,8 @@ table, td, th, tr{
     margin-left: 300px;
     border: solid 2px black;
 }
+#formulario{
+    background-color: gainsboro;
+    border: solid 2px black;
+    border-radius: 30px;
+}
