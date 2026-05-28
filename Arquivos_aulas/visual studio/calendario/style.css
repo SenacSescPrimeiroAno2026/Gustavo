@@ -12,7 +12,3 @@ table, tr, th, td{
 .feriado{
     background-color: greenyellow;
 }
-.feriado:hover{
-    background-color: darkgreen;
-    color: white;
-}
