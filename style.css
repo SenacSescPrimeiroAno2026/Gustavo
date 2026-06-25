@@ -47,3 +47,6 @@ button{
 .ultima{
     margin-left: 522px;
 }
+.linha{
+    border: solid 5px gray;
+}
